@@ -30,6 +30,7 @@ A complete redesign of the "Choose Your Skip Size" page for [WeWantWaste.co.uk](
 3. Run the dev server:
    ```bash
    npm run dev
+   ```
 
 ## 🌐 API Usage
 Fetches skip data from:
