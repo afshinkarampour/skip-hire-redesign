@@ -25,9 +25,11 @@ A complete redesign of the "Choose Your Skip Size" page for [WeWantWaste.co.uk](
    ```bash
    git clone https://github.com/afshinkarampour/skip-hire-redesign.git
 2. Install dependencies:
-   ```npm install
+   ```bash
+   npm install
 3. Run the dev server:
-   ```npm run dev
+   ```bash
+   npm run dev
 
 ## 🌐 API Usage
 Fetches skip data from:
