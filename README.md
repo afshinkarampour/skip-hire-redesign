@@ -39,10 +39,10 @@ Skip Cards	Visual hierarchy with size/price
 Dark Mode 	System preference + manual toggle
 Mobile View	Simplified content on small screens
 
-##📌 Future Improvements
+## 📌 Future Improvements
 Add postcode input form
 Implement multi-step checkout
 Add Jest/Vitest unit tests
 
-##🤝 Contributing
+## 🤝 Contributing
 Pull requests welcome! For major changes, please open an issue first.
