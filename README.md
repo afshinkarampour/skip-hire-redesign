@@ -47,5 +47,19 @@ Add postcode input form
 Implement multi-step checkout
 Add Jest/Vitest unit tests
 
+## 🖼 Screenshots
+
+### 💡 Desktop Light View
+![Desktop Screenshot](./screenshots/light_lg.png)
+
+### 🌙 Desktop Dark Mode
+![Dark Mode](./screenshots/dark_lg.png)
+
+### 📱 Mobile Light View
+![Mobile View](./screenshots/light_sm.png)
+
+### 📱 Mobile Dark View
+![Mobile Dark View](./screenshots/dark_sm.png)
+
 ## 🤝 Contributing
 Pull requests welcome! For major changes, please open an issue first.
