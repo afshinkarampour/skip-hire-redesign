@@ -61,5 +61,9 @@ Add Jest/Vitest unit tests
 ### 📱 Mobile Dark View
 ![Mobile Dark View](./screenshots/dark_sm.png)
 
+## 🔗 Live Demo
+
+[▶️ View on CodeSandbox](https://codesandbox.io/p/github/afshinkarampour/skip-hire-redesign/main?workspaceId=ws_MRrTAh34TDiMujYFtEHkjJ)
+
 ## 🤝 Contributing
 Pull requests welcome! For major changes, please open an issue first.
