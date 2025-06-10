@@ -17,7 +17,7 @@ A complete redesign of the "Choose Your Skip Size" page for [WeWantWaste.co.uk](
 ## 🛠 Technologies
 ![React](https://img.shields.io/badge/React-18.2-blue?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3-blue?logo=tailwind-css)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1-blue?logo=tailwind-css)
 ![Vite](https://img.shields.io/badge/Vite-4.4-yellow?logo=vite)
 
 ## 🚀 Installation
