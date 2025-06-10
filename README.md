@@ -1,54 +1,48 @@
-# React + TypeScript + Vite
+# 🚛 Skip Hire Redesign - React Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Overview
+A complete redesign of the "Choose Your Skip Size" page for [WeWantWaste.co.uk](https://wewantwaste.co.uk/).  
+**Key Goals:**  
+✔ Modern UI/UX while preserving functionality  
+✔ Fully responsive design  
+✔ Dark mode support  
 
-Currently, two official plugins are available:
+## ✨ Features
+- **Dark/Light Mode Toggle** (persists via `localStorage`)
+- **Interactive Skip Cards** with hover animations
+- **Real-time Price Calculation** (VAT + transport costs)
+- **API Integration** with loading/error states
+- **Mobile-First** responsive layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Technologies
+![React](https://img.shields.io/badge/React-18.2-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3-blue?logo=tailwind-css)
+![Vite](https://img.shields.io/badge/Vite-4.4-yellow?logo=vite)
 
-## Expanding the ESLint configuration
+## 🚀 Installation
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/afshinkarampour/skip-hire-redesign.git
+2. Install dependencies:
+   npm install
+3. Run the dev server:
+   npm run dev
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🌐 API Usage
+Fetches skip data from:
+  `https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft`
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🎨 Design Decisions
+Component	  Approach
+Skip Cards	Visual hierarchy with size/price
+Dark Mode 	System preference + manual toggle
+Mobile View	Simplified content on small screens
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+##📌 Future Improvements
+Add postcode input form
+Implement multi-step checkout
+Add Jest/Vitest unit tests
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+##🤝 Contributing
+Pull requests welcome! For major changes, please open an issue first.
